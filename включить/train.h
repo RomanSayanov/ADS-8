@@ -1,5 +1,6 @@
 // Copyright 2022 NNTU-CS
-#define INCLUDETRAIN_H_
+#ifndef INCLUDE_TRAIN_H_
+#define INCLUDE_TRAIN_H_
 
 class Train {
  private:
@@ -40,3 +41,4 @@ class Train {
     int getLength();          // вычислить длину поезда
     int getOpCount();  // вернуть число переходов (из вагона в вагон)
 };
+#endif  // INCLUDE_TRAIN_H_
